@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+}
+body{
+    min-height: 150vh; /*to scroll*/
+    display: flex;
+    flex-direction: column;
+
+}
+.logopic{
+    width: 160px;
+    height: 50px;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+
+.navbar{
+    background-color: #eac8f4;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.butt{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.b1,.b2{
+    background-color: #c1576a;
+    list-style: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #faebd7;
+    font-size: larger;
+    padding: 10px; 
+    margin: 10px; 
+    border-radius: 15px;
+    transition: background-color 0.3s, transform 0.3s;
+    cursor: pointer;
+    border-style: none;
+
+}
+.b1:hover,.b2:hover{
+    background-color: rgb(193, 87, 106); 
+    transform: scale(1.1); 
+}
+
+
+.b3{
+    cursor: pointer;
+    border-style: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 20px;
+    border-radius: 100px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.dropdownpic{
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    display: block;
+}
+.b3:hover{ 
+    transform: scale(1.1); 
+}
+.b3:hover img{
+    opacity: 0.8;
+}
+
+
+.mylove{
+    background-color: antiquewhite;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: rgb(193, 87, 106);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xxx-large;
+}
+.page{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    flex-grow: 1;
+}
+.mypics{
+    height: 80vh;
+    background:url("food.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.mypics1{
+    height: 80vh;
+    background:url("familu.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+.mypics{
+    height: 80vh;
+    background:url("flowers.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.textinside{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #faebd7;
+    font-size:xxx-large;
+    padding: 20px;
+}
+
+.containerimage{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    margin: 5px;
+    flex-grow: 1;
+}
+.food,.family,.flowers{
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+    object-fit: cover;
+}
+.text{
+    position:absolute;
+    color: #faebd7;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+}
+
+.text1{
+    position:absolute;
+    color: rgb(193, 87, 106);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xxx-large;
+}
+
+.layer{
+    padding: 5px 5px;
+    background-color: rgb(158, 214, 234);
+    border:  10px solid rgb(48, 114, 147);
+    color: rgb(193, 87, 106);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    margin: 0;
+}
+
